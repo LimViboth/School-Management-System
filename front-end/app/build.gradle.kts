@@ -45,8 +45,6 @@ android {
 }
 
 dependencies {
-
-
     implementation ("androidx.core:core-ktx:1.15.0")
     implementation ("androidx.activity:activity-ktx:1.10.1")
     implementation(libs.androidx.core.ktx)
@@ -73,7 +71,4 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-
-
-
 }
