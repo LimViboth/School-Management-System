@@ -1,0 +1,970 @@
+[
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_light_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\light_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_btn_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\btn_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-mdpi_ic_logo_foreground.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-mdpi\\ic_logo_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_btn_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\btn_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_bottom_btn1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\bottom_btn1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_bg_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\bg_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_ic_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\ic_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-anydpi-v26_ic_logo.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-anydpi-v26\\ic_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_bottom_btn3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\bottom_btn3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_back.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_light_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\light_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_btn_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\btn_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_light_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\light_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_back.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_bottom_btn4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\bottom_btn4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_back.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_btn_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\btn_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_btn_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\btn_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_bottom_btn3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\bottom_btn3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_ic_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\ic_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_btn_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\btn_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_top_tight.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\top_tight.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_bg_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\bg_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_bottom_btn4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\bottom_btn4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_bottom_btn1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\bottom_btn1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-mdpi_ic_logo.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-mdpi\\ic_logo.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_today.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\today.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_light_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\light_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_btn_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\btn_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_light_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\light_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-xhdpi_ic_logo_foreground.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-xhdpi\\ic_logo_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_bottom_btn2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\bottom_btn2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_light_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\light_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_bottom_btn2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\bottom_btn2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\menu_bottom_menu.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\menu\\bottom_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_share.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\share.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_bottom_left.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\bottom_left.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_pf.jpg.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\pf.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_light_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\light_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_bg_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\bg_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\layout_item_attendance.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\layout\\item_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_logout.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_btn_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\btn_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-anydpi-v26_ic_logo_round.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-anydpi-v26\\ic_logo_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_bottom_btn3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\bottom_btn3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_bg_5.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\bg_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_light_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\light_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_user_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\user_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_top_tight.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\top_tight.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_bottom_btn1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\bottom_btn1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_ic_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\ic_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-xhdpi_ic_logo_round.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-xhdpi\\ic_logo_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_light_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\light_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-xxhdpi_ic_logo_foreground.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-xxhdpi\\ic_logo_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_bg_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\bg_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_logo.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_ic_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\ic_1.png"
+    },
+    {
+        "merged": "com.example.schoolmanagement.app-debug-50:/layout_activity_splash.xml.flat",
+        "source": "com.example.schoolmanagement.app-main-52:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_ic_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\ic_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_back.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_rounded3.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\rounded3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-hdpi_ic_logo_round.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-hdpi\\ic_logo_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_comment.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_bg_colors.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\bg_colors.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_bg_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\bg_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_ic_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\ic_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_light_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\light_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_ic_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\ic_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_logo.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_rounded2.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\rounded2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_bg_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\bg_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_logo.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_ic_5.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\ic_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_bottom_btn1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\bottom_btn1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_light_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\light_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_user_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\user_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_bottom_btn4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\bottom_btn4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\layout_fragment_classes.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\layout\\fragment_classes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_bg_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\bg_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_ic_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\ic_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_ic_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\ic_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_ic_5.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\ic_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-xhdpi_ic_logo.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-xhdpi\\ic_logo.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_ic_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\ic_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_bg_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\bg_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_bg_input.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\bg_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-hdpi_ic_logo.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-hdpi\\ic_logo.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_rounded1.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\rounded1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_today.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\today.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_logo.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_arrow_forward.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\arrow_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_logo.jpg.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\logo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_bg_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\bg_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_btn_backround1.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\btn_backround1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_light_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\light_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_ic_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\ic_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_btn_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\btn_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\layout_fragment_students.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\layout\\fragment_students.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_back.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_bottom_btn4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\bottom_btn4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-xxhdpi_ic_logo_round.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-xxhdpi\\ic_logo_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_light_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\light_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_btn_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\btn_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_btn_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\btn_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_bg_5.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\bg_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_light_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\light_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_btn_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\btn_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_home.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-xxxhdpi_ic_logo_round.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-xxxhdpi\\ic_logo_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_ic_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\ic_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_bottom_btn3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\bottom_btn3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_btn_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\btn_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_bg_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\bg_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_btn_backround2.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\btn_backround2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_ic_5.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\ic_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_bg_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\bg_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_bg_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\bg_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_user_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\user_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_ic_5.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\ic_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_ic_logo_background.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\ic_logo_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_btn_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\btn_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_bg_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\bg_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_bg_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\bg_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_rate.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\rate.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_bg_color.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\bg_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_light_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\light_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_bottom_left.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\bottom_left.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_bg_5.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\bg_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_bottom_btn4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\bottom_btn4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_today.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\today.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_ic_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\ic_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_bg_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\bg_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_location.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\location.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_btn_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\btn_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_bottom_left.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\bottom_left.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_ic_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\ic_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_today.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\today.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-hdpi_ic_logo_foreground.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-hdpi\\ic_logo_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_btn_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\btn_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_bottom_left.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\bottom_left.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_bg_5.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\bg_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_bg_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\bg_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_light_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\light_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_ic_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\ic_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_bg_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\bg_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_ic_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\ic_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_chat.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_btn_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\btn_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-xxxhdpi_ic_logo.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-xxxhdpi\\ic_logo.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_ic_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\ic_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_bg_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\bg_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_baseline_dark_mode_24.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\baseline_dark_mode_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_bottom_btn2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\bottom_btn2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_btn_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\btn_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\layout_item_student.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\layout\\item_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_bg_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\bg_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_logo.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_ic_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\ic_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_bg_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\bg_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_light_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\light_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_top_tight.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\top_tight.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-xxxhdpi_ic_logo_foreground.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-xxxhdpi\\ic_logo_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_bg_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\bg_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_ic_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\ic_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_user_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\user_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\layout_fragment_attendance.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\layout\\fragment_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_btn_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\btn_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_bg_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\bg_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_bottom_btn4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\bottom_btn4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-xxhdpi_ic_logo.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-xxhdpi\\ic_logo.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_languge.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\languge.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_ic_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\ic_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_bottom_btn2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\bottom_btn2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_user_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\user_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_ic_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\ic_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_btn_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\btn_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_bg_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\bg_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_light_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\light_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_light_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\light_3.png"
+    },
+    {
+        "merged": "com.example.schoolmanagement.app-debug-50:/layout_fragment_classes.xml.flat",
+        "source": "com.example.schoolmanagement.app-main-52:/layout/fragment_classes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_top_tight.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\top_tight.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_top_tight.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\top_tight.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_baseline_add_home_24.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\baseline_add_home_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_bg_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\bg_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_bottom_btn1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\bottom_btn1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_btn_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\btn_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_light_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\light_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\layout_item_class.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\layout\\item_class.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_bg_5.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\bg_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_light_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\light_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_bottom_left.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\bottom_left.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_light_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\light_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_rounded.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_bottom_btn2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\bottom_btn2.png"
+    },
+    {
+        "merged": "com.example.schoolmanagement.app-debug-50:/layout_fragment_profile.xml.flat",
+        "source": "com.example.schoolmanagement.app-main-52:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_btn_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\btn_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_bottom_btn1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\bottom_btn1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_btn_backround.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\btn_backround.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_ic_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\ic_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_back.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_top_tight.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\top_tight.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_bottom_left.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\bottom_left.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_user_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\user_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_btn_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\btn_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_ic_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\ic_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_ic_5.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\ic_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_logo.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxxhdpi_ic_5.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxxhdpi\\ic_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_btn_1.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\btn_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-mdpi_bottom_btn3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-mdpi\\bottom_btn3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-hdpi_light_4.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-hdpi\\light_4.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-ldpi_bg_5.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-ldpi\\bg_5.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_bottom_btn3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\bottom_btn3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_ic_3.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\ic_3.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-mdpi_ic_logo_round.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-mdpi\\ic_logo_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xxhdpi_today.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xxhdpi\\today.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_bottom_btn2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\bottom_btn2.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable_conditions.xml.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable\\conditions.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_today.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\today.png"
+    },
+    {
+        "merged": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-debug-50:\\drawable-xhdpi_light_2.png.flat",
+        "source": "C:\\Users\\Sokha\\.gradle\\daemon\\8.11.1\\com.example.schoolmanagement.app-main-52:\\drawable-xhdpi\\light_2.png"
+    }
+]
