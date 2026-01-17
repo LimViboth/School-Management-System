@@ -1,6 +1,4 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
-<<<<<<< Updated upstream
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
@@ -65,6 +63,7 @@ dependencies {
     implementation ("com.github.bumptech.glide:glide:4.16.0")
     implementation("androidx.constraintlayout:constraintlayout-compose-android:1.1.1")
     implementation("androidx.constraintlayout:constraintlayout:2.2.1")
+    implementation(libs.androidx.recyclerview)
     annotationProcessor ("com.github.bumptech.glide:compiler:4.16.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
@@ -73,9 +72,4 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-=======
-    alias(libs.plugins.android.application) apply false
-    alias(libs.plugins.kotlin.android) apply false
-    alias(libs.plugins.kotlin.compose) apply false
->>>>>>> Stashed changes
 }
