@@ -1,8 +1,13 @@
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine, async_sessionmaker
 from sqlalchemy.orm import DeclarativeBase
 from typing import AsyncGenerator
+import os
 
-DATABASE_URL = "sqlite+aiosqlite:///./School.db"
+# Use absolute path to ensure database persists across reloads
+DATABASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(DATABASE_DIR)
+DATABASE_PATH = os.path.join(PROJECT_ROOT, "School.db")
+DATABASE_URL = f"sqlite+aiosqlite:///{DATABASE_PATH}"
 
 engine = create_async_engine(DATABASE_URL, echo=True)
 

@@ -9,6 +9,7 @@
 
         <!-- Secondary brand color -->
         <item name="colorSecondary">#6A5AE0</item>
+        <item name="colorSecondaryVariant">#4F3FB8</item>
         <item name="colorOnSecondary">#FFFFFF</item>
     </style>
 

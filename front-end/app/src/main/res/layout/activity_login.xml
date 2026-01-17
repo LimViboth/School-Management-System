@@ -41,6 +41,15 @@
         android:textColor="@color/black"
         android:textColorHint="#888888" />
 
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"
+        android:indeterminateTint="@color/white" />
+
     <!-- Login Button -->
     <Button
         android:id="@+id/btnLogin"
