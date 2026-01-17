@@ -16,10 +16,10 @@ class MainActivity : AppCompatActivity() {
             .setOnItemSelectedListener {
                 when (it.itemId) {
                     R.id.nav_dashboard -> loadFragment(DashboardFragment())
-                    //R.id.nav_students -> loadFragment(StudentsFragment())
-                    //R.id.nav_classes -> loadFragment(ClassesFragment())
-                   // R.id.nav_attendance -> loadFragment(AttendanceFragment())
-                    //R.id.nav_profile -> loadFragment(ProfileFragment())
+                    R.id.nav_students -> loadFragment(StudentsFragment())
+                    R.id.nav_classes -> loadFragment(ClassesFragment())
+                    R.id.nav_attendance -> loadFragment(AttendanceFragment())
+                    R.id.nav_profile -> loadFragment(ProfileFragment())
                 }
                 true
             }

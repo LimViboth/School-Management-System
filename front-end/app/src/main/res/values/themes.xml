@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.SchoolManagement"
-        parent="Theme.AppCompat.Light.NoActionBar" />
+    <style name="Theme.SchoolManagement" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#07758C</item>
+        <item name="colorPrimaryVariant">#055B6A</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#6A5AE0</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+    </style>
 
 </resources>

@@ -1,7 +1,0 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/nav_dashboard" android:title="Dashboard" android:icon="@drawable/home"/>
-    <item android:id="@+id/nav_students" android:title="Students" android:icon="@drawable/bottom_btn3"/>
-    <item android:id="@+id/nav_classes" android:title="Classes" android:icon="@drawable/btn_2"/>
-    <item android:id="@+id/nav_attendance" android:title="Attendance" android:icon="@drawable/btn_4"/>
-    <item android:id="@+id/nav_profile" android:title="Profile" android:icon="@drawable/user_1"/>
-</menu>
