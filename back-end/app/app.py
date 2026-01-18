@@ -292,7 +292,7 @@ async def create_student(
     return db_student
 
 
-@app.get("/api/students", response_model=List[StudentResponse], tags=["Students"])
+@app.get("/api/students", response_model=List[StudentWithClass], tags=["Students"])
 async def get_students(
     class_id: Optional[int] = Query(None),
     search: Optional[str] = Query(None),
@@ -314,7 +314,24 @@ async def get_students(
         )
     
     result = await db.execute(query)
-    return result.scalars().all()
+    students = result.scalars().all()
+    
+    # Fetch class names for all students
+    students_with_class = []
+    for student in students:
+        class_name = None
+        if student.class_id:
+            class_result = await db.execute(select(Class).where(Class.id == student.class_id))
+            cls = class_result.scalar_one_or_none()
+            if cls:
+                class_name = cls.name
+        
+        students_with_class.append(StudentWithClass(
+            **{k: v for k, v in student.__dict__.items() if not k.startswith('_')},
+            class_name=class_name
+        ))
+    
+    return students_with_class
 
 
 @app.get("/api/students/{student_id}", response_model=StudentWithClass, tags=["Students"])

@@ -87,6 +87,36 @@ class AuthRepository {
         }
     }
 
+    suspend fun changePassword(passwordChange: PasswordChange): Resource<MessageResponse> {
+        return withContext(Dispatchers.IO) {
+            try {
+                val response = apiService.changePassword(passwordChange)
+                if (response.isSuccessful && response.body() != null) {
+                    Resource.Success(response.body()!!)
+                } else {
+                    Resource.Error(parseError(response))
+                }
+            } catch (e: Exception) {
+                Resource.Error(e.message ?: "Unknown error occurred")
+            }
+        }
+    }
+
+    suspend fun updateUser(userId: Int, userUpdate: UserUpdate): Resource<User> {
+        return withContext(Dispatchers.IO) {
+            try {
+                val response = apiService.updateUser(userId, userUpdate)
+                if (response.isSuccessful && response.body() != null) {
+                    Resource.Success(response.body()!!)
+                } else {
+                    Resource.Error(parseError(response))
+                }
+            } catch (e: Exception) {
+                Resource.Error(e.message ?: "Unknown error occurred")
+            }
+        }
+    }
+
     suspend fun logout(): Resource<MessageResponse> {
         return withContext(Dispatchers.IO) {
             try {

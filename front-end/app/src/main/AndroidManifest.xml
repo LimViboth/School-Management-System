@@ -34,6 +34,18 @@
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.SchoolManagement" />
+        <activity
+            android:name=".EditStudentActivity"
+            android:exported="false"
+            android:label="Edit Student"
+            android:theme="@style/Theme.SchoolManagement"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false"
+            android:label="Edit Profile"
+            android:theme="@style/Theme.SchoolManagement"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>

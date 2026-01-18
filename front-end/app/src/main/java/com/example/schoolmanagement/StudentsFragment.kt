@@ -1,15 +1,21 @@
 package com.example.schoolmanagement
 
+import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.Toast
+import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.schoolmanagement.api.Resource
 import com.example.schoolmanagement.repository.StudentRepository
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
 class StudentsFragment : Fragment(R.layout.fragment_students) {
@@ -18,11 +24,19 @@ class StudentsFragment : Fragment(R.layout.fragment_students) {
     
     private var recyclerView: RecyclerView? = null
     private var progressBar: ProgressBar? = null
+    private var etSearch: EditText? = null
+    
+    private var studentAdapter: StudentAdapter? = null
+    private var searchJob: Job? = null
+    private var currentSearch: String = ""
+    
+    private val REQUEST_EDIT_STUDENT = 100
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         initViews(view)
+        setupSearchListener()
         loadStudents()
     }
 
@@ -30,24 +44,32 @@ class StudentsFragment : Fragment(R.layout.fragment_students) {
         recyclerView = view.findViewById(R.id.recyclerStudents)
         recyclerView?.layoutManager = LinearLayoutManager(requireContext())
         progressBar = view.findViewById(R.id.progressBar)
+        etSearch = view.findViewById(R.id.etSearch)
     }
 
-    private fun loadStudents() {
+    private fun setupSearchListener() {
+        etSearch?.addTextChangedListener { text ->
+            searchJob?.cancel()
+            searchJob = viewLifecycleOwner.lifecycleScope.launch {
+                delay(500) // Debounce delay
+                currentSearch = text.toString().trim()
+                loadStudents(currentSearch)
+            }
+        }
+    }
+
+    private fun loadStudents(search: String? = null) {
         viewLifecycleOwner.lifecycleScope.launch {
             progressBar?.visibility = View.VISIBLE
 
-            when (val result = studentRepository.getStudents()) {
+            when (val result = studentRepository.getStudents(search = search)) {
                 is Resource.Success -> {
                     result.data?.let { students ->
-                        // Convert API models to local Student model for adapter
-                        val studentList = students.map { student ->
-                            Student(
-                                id = student.studentId,
-                                name = student.fullName,
-                                className = student.className ?: "No Class"
-                            )
+                        studentAdapter = StudentAdapter(students) { student ->
+                            // Handle edit click
+                            openEditStudent(student.id)
                         }
-                        recyclerView?.adapter = StudentAdapter(studentList)
+                        recyclerView?.adapter = studentAdapter
                     }
                 }
                 is Resource.Error -> {
@@ -56,8 +78,8 @@ class StudentsFragment : Fragment(R.layout.fragment_students) {
                         result.message ?: "Failed to load students",
                         Toast.LENGTH_SHORT
                     ).show()
-                    // Show empty state or fallback data
-                    recyclerView?.adapter = StudentAdapter(emptyList())
+                    // Show empty state
+                    recyclerView?.adapter = StudentAdapter(emptyList()) { }
                 }
                 is Resource.Loading -> {
                     // Already showing loading
@@ -65,6 +87,20 @@ class StudentsFragment : Fragment(R.layout.fragment_students) {
             }
 
             progressBar?.visibility = View.GONE
+        }
+    }
+
+    private fun openEditStudent(studentId: Int) {
+        val intent = Intent(requireContext(), EditStudentActivity::class.java)
+        intent.putExtra("STUDENT_ID", studentId)
+        startActivityForResult(intent, REQUEST_EDIT_STUDENT)
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == REQUEST_EDIT_STUDENT && resultCode == Activity.RESULT_OK) {
+            // Refresh the list after editing
+            loadStudents(currentSearch)
         }
     }
 }

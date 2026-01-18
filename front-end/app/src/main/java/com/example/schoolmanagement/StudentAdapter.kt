@@ -1,18 +1,18 @@
 package com.example.schoolmanagement
 
-import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.schoolmanagement.models.Student
 
-data class Student(val id: String, val name: String, val className: String)
 
-
-class StudentAdapter(private val students: List<Student>) :
-    RecyclerView.Adapter<StudentAdapter.StudentViewHolder>() {
+class StudentAdapter(
+    private val students: List<Student>,
+    private val onEditClick: (Student) -> Unit
+) : RecyclerView.Adapter<StudentAdapter.StudentViewHolder>() {
 
 
     inner class StudentViewHolder(view: View) : RecyclerView.ViewHolder(view) {
@@ -34,14 +34,21 @@ class StudentAdapter(private val students: List<Student>) :
 
     override fun onBindViewHolder(holder: StudentViewHolder, position: Int) {
         val student = students[position]
-        holder.name.text = student.name
-        holder.className.text = "Class: ${student.className}"
-        holder.id.text = "ID: ${student.id}"
+        holder.name.text = student.fullName
+        holder.className.text = "Class: ${student.className ?: "No Class"}"
+        holder.id.text = "ID: ${student.studentId}"
 
-
-        holder.btnInfo.setOnClickListener { }
-        holder.btnEdit.setOnClickListener { }
-        holder.btnDelete.setOnClickListener { }
+        holder.btnInfo.setOnClickListener { 
+            // TODO: Implement student info view
+        }
+        
+        holder.btnEdit.setOnClickListener { 
+            onEditClick(student)
+        }
+        
+        holder.btnDelete.setOnClickListener { 
+            // TODO: Implement delete functionality
+        }
     }
 
 

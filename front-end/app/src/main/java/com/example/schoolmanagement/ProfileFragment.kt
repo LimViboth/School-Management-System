@@ -1,5 +1,6 @@
 package com.example.schoolmanagement
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -25,6 +26,8 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
     private var tvUserRole: TextView? = null
     private var btnLogout: LinearLayout? = null
     private var progressBar: ProgressBar? = null
+
+    private val REQUEST_EDIT_PROFILE = 101
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -63,14 +66,16 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
                         tvUserName?.text = user.fullName
                         tvUserEmail?.text = user.email
                         tvUserRole?.text = user.role.replaceFirstChar { it.uppercase() }
-                        
+
                         // Update cached info
                         tokenManager.saveUserInfo(user.id, user.email, user.fullName, user.role)
                     }
                 }
+
                 is Resource.Error -> {
                     // Use cached data if API fails, already displayed
                 }
+
                 is Resource.Loading -> {}
             }
 
@@ -82,9 +87,10 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
         btnLogout?.setOnClickListener {
             logout()
         }
-        
+
         view.findViewById<Button>(R.id.btnEditProfile)?.setOnClickListener {
-            Toast.makeText(requireContext(), "Edit profile feature coming soon", Toast.LENGTH_SHORT).show()
+            val intent = Intent(requireContext(), EditProfileActivity::class.java)
+            startActivityForResult(intent, REQUEST_EDIT_PROFILE)
         }
     }
 
@@ -97,6 +103,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
                     // Navigate to login regardless of API response
                     navigateToLogin()
                 }
+
                 is Resource.Loading -> {}
             }
 
@@ -109,5 +116,13 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         startActivity(intent)
         activity?.finish()
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == REQUEST_EDIT_PROFILE && resultCode == Activity.RESULT_OK) {
+            // Refresh profile data after editing
+            displayUserInfo()
+        }
     }
 }
