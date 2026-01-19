@@ -116,7 +116,7 @@ class AttendanceFragment : Fragment(R.layout.fragment_attendance) {
                             AttendanceStudent(
                                 id = student.id.toString(),
                                 name = student.fullName,
-                                isPresent = true
+                                status = "present"
                             )
                         }.toMutableList()
                         recyclerView?.adapter = AttendanceAdapter(attendanceStudents)
@@ -152,7 +152,7 @@ class AttendanceFragment : Fragment(R.layout.fragment_attendance) {
             val records = attendanceStudents.map { student ->
                 AttendanceRecord(
                     studentId = student.id.toIntOrNull() ?: 0,
-                    status = if (student.isPresent) "present" else "absent"
+                    status = student.status
                 )
             }
 

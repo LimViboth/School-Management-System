@@ -1,9 +1,22 @@
 package com.example.schoolmanagement
 
+import android.Manifest
+import android.app.Activity
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
+import android.net.Uri
+import android.os.Build
 import android.os.Bundle
+import android.provider.MediaStore
+import android.util.Base64
 import android.view.View
 import android.widget.*
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
 import com.example.schoolmanagement.api.Resource
 import com.example.schoolmanagement.api.RetrofitClient
@@ -11,6 +24,7 @@ import com.example.schoolmanagement.models.PasswordChange
 import com.example.schoolmanagement.models.UserUpdate
 import com.example.schoolmanagement.repository.AuthRepository
 import kotlinx.coroutines.launch
+import java.io.ByteArrayOutputStream
 
 class EditProfileActivity : AppCompatActivity() {
 
@@ -29,9 +43,21 @@ class EditProfileActivity : AppCompatActivity() {
     private lateinit var progressBar: ProgressBar
     private lateinit var layoutPasswordChange: LinearLayout
     private lateinit var btnTogglePasswordChange: Button
-    
+
     private var userId: Int = 0
     private var isPasswordSectionVisible = false
+    private var selectedProfilePictureBase64: String? = null
+
+    // Image picker launcher
+    private val imagePickerLauncher = registerForActivityResult(
+        ActivityResultContracts.StartActivityForResult()
+    ) { result ->
+        if (result.resultCode == Activity.RESULT_OK) {
+            result.data?.data?.let { uri ->
+                handleSelectedImage(uri)
+            }
+        }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -170,7 +196,8 @@ class EditProfileActivity : AppCompatActivity() {
             btnSaveProfile.isEnabled = false
 
             val userUpdate = UserUpdate(
-                fullName = etFullName.text.toString().trim()
+                fullName = etFullName.text.toString().trim(),
+                profilePicture = selectedProfilePictureBase64
             )
 
             when (val result = authRepository.updateUser(userId, userUpdate)) {
@@ -240,5 +267,89 @@ class EditProfileActivity : AppCompatActivity() {
             progressBar.visibility = View.GONE
             btnChangePassword.isEnabled = true
         }
+    }
+
+    private fun showImagePickerDialog() {
+        val options = arrayOf("Choose from Gallery", "Cancel")
+        AlertDialog.Builder(this)
+            .setTitle("Select Profile Picture")
+            .setItems(options) { dialog, which ->
+                when (which) {
+                    0 -> checkPermissionAndPickImage()
+                    1 -> dialog.dismiss()
+                }
+            }
+            .show()
+    }
+
+    private fun checkPermissionAndPickImage() {
+        val permission = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            Manifest.permission.READ_MEDIA_IMAGES
+        } else {
+            Manifest.permission.READ_EXTERNAL_STORAGE
+        }
+
+        when {
+            ContextCompat.checkSelfPermission(this, permission) == PackageManager.PERMISSION_GRANTED -> {
+                openImagePicker()
+            }
+            else -> {
+                requestPermissionLauncher.launch(permission)
+            }
+        }
+    }
+
+    private val requestPermissionLauncher = registerForActivityResult(
+        ActivityResultContracts.RequestPermission()
+    ) { isGranted ->
+        if (isGranted) {
+            openImagePicker()
+        } else {
+            Toast.makeText(this, "Permission denied. Cannot select image.", Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    private fun openImagePicker() {
+        val intent = Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
+        intent.type = "image/*"
+        imagePickerLauncher.launch(intent)
+    }
+
+    private fun handleSelectedImage(uri: Uri) {
+        try {
+            val inputStream = contentResolver.openInputStream(uri)
+            val bitmap = BitmapFactory.decodeStream(inputStream)
+            inputStream?.close()
+
+            // Resize bitmap to reduce size
+            val resizedBitmap = resizeBitmap(bitmap, 500)
+
+            // Convert to Base64
+            val outputStream = ByteArrayOutputStream()
+            resizedBitmap.compress(Bitmap.CompressFormat.JPEG, 80, outputStream)
+            val byteArray = outputStream.toByteArray()
+            selectedProfilePictureBase64 = Base64.encodeToString(byteArray, Base64.DEFAULT)
+
+            Toast.makeText(this, "Profile picture selected", Toast.LENGTH_SHORT).show()
+        } catch (e: Exception) {
+            e.printStackTrace()
+            Toast.makeText(this, "Failed to load image", Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    private fun resizeBitmap(bitmap: Bitmap, maxSize: Int): Bitmap {
+        var width = bitmap.width
+        var height = bitmap.height
+
+        val ratio = width.toFloat() / height.toFloat()
+        if (ratio > 1) {
+            width = maxSize
+            height = (maxSize / ratio).toInt()
+        } else {
+            height = maxSize
+            width = (maxSize * ratio).toInt()
+        }
+
+        return Bitmap.createScaledBitmap(bitmap, width, height, true)
     }
 }

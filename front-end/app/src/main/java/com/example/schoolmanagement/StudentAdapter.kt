@@ -11,7 +11,8 @@ import com.example.schoolmanagement.models.Student
 
 class StudentAdapter(
     private val students: List<Student>,
-    private val onEditClick: (Student) -> Unit
+    private val onEditClick: (Student) -> Unit,
+    private val onDeleteClick: (Student) -> Unit
 ) : RecyclerView.Adapter<StudentAdapter.StudentViewHolder>() {
 
 
@@ -47,7 +48,7 @@ class StudentAdapter(
         }
         
         holder.btnDelete.setOnClickListener { 
-            // TODO: Implement delete functionality
+            onDeleteClick(student)
         }
     }
 

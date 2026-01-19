@@ -7,12 +7,14 @@ import android.view.View
 import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.schoolmanagement.api.Resource
+import com.example.schoolmanagement.models.Student
 import com.example.schoolmanagement.repository.StudentRepository
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
@@ -65,10 +67,17 @@ class StudentsFragment : Fragment(R.layout.fragment_students) {
             when (val result = studentRepository.getStudents(search = search)) {
                 is Resource.Success -> {
                     result.data?.let { students ->
-                        studentAdapter = StudentAdapter(students) { student ->
-                            // Handle edit click
-                            openEditStudent(student.id)
-                        }
+                        studentAdapter = StudentAdapter(
+                            students,
+                            onEditClick = { student ->
+                                // Handle edit click
+                                openEditStudent(student.id)
+                            },
+                            onDeleteClick = { student ->
+                                // Handle delete click
+                                showDeleteConfirmation(student)
+                            }
+                        )
                         recyclerView?.adapter = studentAdapter
                     }
                 }
@@ -79,7 +88,7 @@ class StudentsFragment : Fragment(R.layout.fragment_students) {
                         Toast.LENGTH_SHORT
                     ).show()
                     // Show empty state
-                    recyclerView?.adapter = StudentAdapter(emptyList()) { }
+                    recyclerView?.adapter = StudentAdapter(emptyList(), {}, {})
                 }
                 is Resource.Loading -> {
                     // Already showing loading
@@ -101,6 +110,45 @@ class StudentsFragment : Fragment(R.layout.fragment_students) {
         if (requestCode == REQUEST_EDIT_STUDENT && resultCode == Activity.RESULT_OK) {
             // Refresh the list after editing
             loadStudents(currentSearch)
+        }
+    }
+
+    private fun showDeleteConfirmation(student: Student) {
+        AlertDialog.Builder(requireContext())
+            .setTitle("Delete Student")
+            .setMessage("Are you sure you want to delete ${student.fullName}? This action cannot be undone.")
+            .setPositiveButton("Delete") { _, _ ->
+                deleteStudent(student)
+            }
+            .setNegativeButton("Cancel", null)
+            .show()
+    }
+
+    private fun deleteStudent(student: Student) {
+        viewLifecycleOwner.lifecycleScope.launch {
+            progressBar?.visibility = View.VISIBLE
+
+            when (val result = studentRepository.deleteStudent(student.id)) {
+                is Resource.Success -> {
+                    Toast.makeText(
+                        requireContext(),
+                        "Student deleted successfully",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                    // Refresh the list
+                    loadStudents(currentSearch)
+                }
+                is Resource.Error -> {
+                    Toast.makeText(
+                        requireContext(),
+                        result.message ?: "Failed to delete student",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                }
+                is Resource.Loading -> {}
+            }
+
+            progressBar?.visibility = View.GONE
         }
     }
 }

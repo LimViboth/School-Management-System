@@ -7,15 +7,25 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.schoolmanagement.models.ClassModel
+
 data class SchoolClass(
+    val id: Int,
     val name: String,
     val teacher: String,
-    val totalStudents: Int
+    val totalStudents: Int,
+    val description: String? = null,
+    val gradeLevel: String? = null,
+    val academicYear: String? = null,
+    val teacherId: Int? = null
 )
 
 
-class ClassAdapter(private val classes: List<SchoolClass>) :
-    RecyclerView.Adapter<ClassAdapter.ClassViewHolder>() {
+class ClassAdapter(
+    private val classes: List<SchoolClass>,
+    private val onEditClick: (SchoolClass) -> Unit,
+    private val onDeleteClick: (SchoolClass) -> Unit
+) : RecyclerView.Adapter<ClassAdapter.ClassViewHolder>() {
 
 
     inner class ClassViewHolder(view: View) : RecyclerView.ViewHolder(view) {
@@ -41,8 +51,12 @@ class ClassAdapter(private val classes: List<SchoolClass>) :
         holder.total.text = "Students: ${schoolClass.totalStudents}"
 
 
-        holder.btnEdit.setOnClickListener { }
-        holder.btnDelete.setOnClickListener { }
+        holder.btnEdit.setOnClickListener { 
+            onEditClick(schoolClass)
+        }
+        holder.btnDelete.setOnClickListener { 
+            onDeleteClick(schoolClass)
+        }
     }
 
 
