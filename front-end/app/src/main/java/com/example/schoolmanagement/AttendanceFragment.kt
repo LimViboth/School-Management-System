@@ -1,5 +1,6 @@
 package com.example.schoolmanagement
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -54,7 +55,7 @@ class AttendanceFragment : Fragment(R.layout.fragment_attendance) {
 
     private fun setupClickListeners(view: View) {
         view.findViewById<Button>(R.id.btnViewHistory)?.setOnClickListener {
-            Toast.makeText(requireContext(), "Attendance history feature coming soon", Toast.LENGTH_SHORT).show()
+            startActivity(AttendanceHistoryActivity.newIntent(requireContext()))
         }
         
         btnSaveAttendance?.setOnClickListener {

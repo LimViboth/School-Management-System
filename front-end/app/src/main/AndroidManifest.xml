@@ -46,6 +46,12 @@
             android:label="Edit Profile"
             android:theme="@style/Theme.SchoolManagement"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AttendanceHistoryActivity"
+            android:exported="false"
+            android:label="Attendance History"
+            android:theme="@style/Theme.SchoolManagement"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
